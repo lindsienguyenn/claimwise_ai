@@ -2,6 +2,13 @@
 
 🚀 **Google Cloud BigQuery AI Hackathon Project**
 
+
+## 🔗 Project Links
+
+* [Live Kaggle Notebook](https://www.kaggle.com/code/nguyennamhongdoan/claimwise-ai-auto-claim-insurance)
+* [YouTube Demo]([https://www.youtube.com/watch?v=331wTlPY9IM](https://www.youtube.com/watch?v=0tNLbyQfCr4))
+* [Blog Post (Medium)](https://medium.com/@bigqueryteam1/from-hours-to-minutes-how-claimwise-transforms-claims-with-intelligent-automation-7e30b3446f39)
+
 ## 📌 Overview
 
 ClaimWise AI is an AI-powered Insurance Claim Assistant that leverages Google Cloud, BigQuery, and Cloud Storage to streamline the traditionally manual and time-consuming claim review process.
@@ -64,10 +71,5 @@ This manual process can be slow, inconsistent, and prone to fraud. ClaimWise AI 
 6. **Run analysis**: Execute the Colab notebook to process claims and detect fraud
 ---
 
-## 🔗 Project Links
-
-* [Live Kaggle Notebook](https://www.kaggle.com/code/nguyennamhongdoan/claimwise-ai-auto-claim-insurance)
-* [YouTube Demo](https://www.youtube.com/watch?v=331wTlPY9IM)
-* [Blog Post (Medium)](https://medium.com/@bigqueryteam1/from-hours-to-minutes-how-claimwise-transforms-claims-with-intelligent-automation-7e30b3446f39)
 
 
