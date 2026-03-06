@@ -1,6 +1,5 @@
-# ClaimWise AI
+# ClaimWise AI - Google Cloud BigQuery AI Hackathon Project
 
-🚀 **Google Cloud BigQuery AI Hackathon Project**
 
 
 ## 🔗 Project Links
