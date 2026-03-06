@@ -4,9 +4,9 @@
 
 ## 🔗 Project Links
 
-* [Live Kaggle Notebook](https://www.kaggle.com/code/nguyennamhongdoan/claimwise-ai-auto-claim-insurance)
-* [YouTube Demo](https://www.youtube.com/watch?v=0tNLbyQfCr4) 
-* [Blog Post (Medium)](https://medium.com/@bigqueryteam1/from-hours-to-minutes-how-claimwise-transforms-claims-with-intelligent-automation-7e30b3446f39)
+* Watch the video demo here — [YouTube Demo](https://www.youtube.com/watch?v=0tNLbyQfCr4) 
+* View  the Architecture diagram & code — [Live Kaggle Notebook](https://www.kaggle.com/code/nguyennamhongdoan/claimwise-ai-auto-claim-insurance)
+* Read the Blog Post —  [Medium Post](https://medium.com/@bigqueryteam1/from-hours-to-minutes-how-claimwise-transforms-claims-with-intelligent-automation-7e30b3446f39)
 
 ## 📌 Overview
 
@@ -51,24 +51,38 @@ This manual process can be slow, inconsistent, and prone to fraud. ClaimWise AI 
 * **Annual Savings**: $815,000+ potential through automation and fraud prevention
 
 ---
+### Setup
 
-## 🚀 Quick Start
+**1. Configure Google Cloud**
+```bash
+# Create storage bucket
+gsutil mb gs://claim_medias
 
-### Prerequisites
+# Upload claim photos
+gsutil -m cp -r ./photos/* gs://claim_medias/
+```
 
-1. **Download raw data**: Get historical claim photos from [Google Drive](https://drive.google.com/drive/folders/1byERaspNHtO7RVL37qY3ytgJjgMtBBdl?usp=sharing) and upload to your Drive
-2. **Create BigQuery dataset**: Set up `claimwise_db` dataset in BigQuery
-3. **Import claims table**: Create `claims` table using `claims_metadata.xlsx` from BigQuery AI Team/Dataset folder
+**2. Set Up BigQuery**
+- Create `claimwise_db` dataset
+- Import `claims` table from `claims_metadata.xlsx`
+- Create external table `claim_medias` with GCS URIs
 
-### Setup Steps
+**3. Build Embedding Models**
+- Generate text embeddings for claim descriptions
+- Create multimodal embeddings for damage photos
+- Add `text_embedding` column to claims table
 
-1. **Create GCS bucket**: Set up `claim_medias` bucket in Google Cloud Storage
-2. **Upload photos**: Load claim photos into the GCS bucket
-3. **Create external table**: Set up `claim_medias` external table in BigQuery with object URIs
-4. **Build embedding models**: Create text embedding model for descriptions and multimodal model for photos
-5. **Extend claims table**: Add `text_embedding` column to enable semantic similarity search
-6. **Run analysis**: Execute the Colab notebook to process claims and detect fraud
+**4. Run Analysis**
+- Execute the [Kaggle notebook](https://www.kaggle.com/code/nguyennamhongdoan/claimwise-ai-auto-claim-insurance)
+- Review fraud flags and similarity scores
+- Export results for business review
+
 ---
+
+## Results
+
+ClaimWise AI successfully processed 100+ test claims, detecting 3 fraud attempts through duplicate image recognition while reducing average processing time from 60 seconds to 0.15 seconds per claim.
+
 
 
 
