@@ -6,7 +6,7 @@
 ## 🔗 Project Links
 
 * [Live Kaggle Notebook](https://www.kaggle.com/code/nguyennamhongdoan/claimwise-ai-auto-claim-insurance)
-* [YouTube Demo]([https://www.youtube.com/watch?v=331wTlPY9IM](https://www.youtube.com/watch?v=0tNLbyQfCr4))
+* [YouTube Demo]([https://www.youtube.com/watch?v=331wTlPY9IM](https://www.youtube.com/watch?v=0tNLbyQfCr4)
 * [Blog Post (Medium)](https://medium.com/@bigqueryteam1/from-hours-to-minutes-how-claimwise-transforms-claims-with-intelligent-automation-7e30b3446f39)
 
 ## 📌 Overview
