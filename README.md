@@ -4,7 +4,8 @@
 
 ## 🔗 Project Links
 
-* Watch the video demo here — [YouTube Demo](https://www.youtube.com/watch?v=0tNLbyQfCr4) 
+* Watch the video demo here — [YouTube User Demo](https://www.youtube.com/watch?v=0tNLbyQfCr4)
+* Introduction & Google Colab Walkthrough: [YouTube Demo](https://www.youtube.com/watch?v=diy80IfJ9uk&t=120s)
 * View  the Architecture diagram & code — [Live Kaggle Notebook](https://www.kaggle.com/code/nguyennamhongdoan/claimwise-ai-auto-claim-insurance)
 * Read the Blog Post —  [Medium Post](https://medium.com/@bigqueryteam1/from-hours-to-minutes-how-claimwise-transforms-claims-with-intelligent-automation-7e30b3446f39)
 
